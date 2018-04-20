@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do</title>
+    <link rel="manifest" href="./mainifest.json">
+</head>
+
+<body>
+    <!--导航 -->
+    <nav class="header">
+
+    </nav>
+
+    <div class="count">
+        <div class="title animated slideInDown">
+            <h2>Hello</h2>
+            <p>Let`s Todo</p>
+        </div>
+        <div class="main animated slideInUp">
+            <input type="text" class="input" id="input" placeholder="接下来你要做什么？" />
+            <div class="btn" id="btn">
+                <span class="line1" id="line"></span>
+                <span class="line2" id="line"></span>
+            </div>
+            <div class="container" id="items"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+        if (typeof localStorage === 'object') {
+            try {
+                localStorage.setItem('localStorage', 1);
+                localStorage.removeItem('localStorage');
+            } catch (e) {
+                Storage.prototype._setItem = Storage.prototype.setItem;
+                Storage.prototype.setItem = function () {};
+                alert(`Yourweb browser does not support storing settings locally.In Safari, 
+                the most common cause of this is using "Private BrowsingMode ".
+                 Some settings may not save or some features may not work properly for you.`);
+                } 
+                
+            }
+    </script>
+</body>
+
+</html>
