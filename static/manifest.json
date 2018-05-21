@@ -24,7 +24,7 @@
       "sizes": "32x32"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "../index.html",
   "background_color": "#4199ee",
   "theme_color": "#4199ee",
   "display": "standalone",
