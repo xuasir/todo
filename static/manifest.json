@@ -4,24 +4,24 @@
   "description": "Forter`s ToDo app.",
   "icons": [
     {
-      "src": "./icons/logo-144.png",
+      "src": "./icons/todo-76x76.png",
       "type": "image/png",
-      "sizes": "144x144"
+      "sizes": "76x76"
     },
     {
-      "src": "./icons/logo-96.png",
+      "src": "./icons/todo-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "./icons/logo-72.png",
+      "src": "./icons/todo-120x120.png",
       "type": "image/png",
-      "sizes": "72x72"
+      "sizes": "120x120"
     },
     {
-      "src": "./icons/logo-32.png",
+      "src": "./icons/todo-152x151.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "152x152"
     }
   ],
   "start_url": "../index.html",
